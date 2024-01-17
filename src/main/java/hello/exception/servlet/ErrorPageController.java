@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class ErrorPageController {
 
+    //RequestDispatcher 상수로 정의되어 있음
+    //인강 강의에는 javax.servlet.error.exception 였으나 오류 발생 >> jakarta.servlet.error.exception 변경 후 정상 동작.(회사 변경 이슈)
     public static final String ERROR_EXCEPTION = "jakarta.servlet.error.exception";
     public static final String ERROR_EXCEPTION_TYPE = "jakarta.servlet.error.exception_type";
     public static final String ERROR_MESSAGE = "jakarta.servlet.error.message";
