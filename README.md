@@ -69,7 +69,7 @@ public void addInterceptors(InterceptorRegistry registry) {
 
 ### 오류페이지
 - `BasicErrorController` 컨트롤러는 다음 정보를 model에 담아서 뷰에 전달
-``[hello](src%2Fmain%2Fjava%2Fhello)`* timestamp: Fri Feb 05 00:00:00 KST 2021
+```* timestamp: Fri Feb 05 00:00:00 KST 2021
 * status: 400
 * error: Bad Request
 * exception: org.springframework.validation.BindException
